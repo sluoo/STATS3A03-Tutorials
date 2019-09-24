@@ -1,3 +1,6 @@
+*NOTE: If you are using the desktops at school you need to bring a USB drive or put everything into the K: drive (shared drive
+*for the school) and save everything within there. Otherwise nothing will be saved!; 
+
 *Create library. You must always run this command first to retrieve your data. 
 Otherwise it will get stored in a temporary library; 
 libname S3A3 "/folders/myfolders";
