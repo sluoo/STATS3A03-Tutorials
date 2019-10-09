@@ -22,7 +22,7 @@ run;
 *X,Y and inv_xtx are GIVEN TO YOU in the assignment but we have to create ours for this dataset;
 *Follow previous tutorial on PROC IML; 
 
-*Example I'm doing is more difficult compared to your HW; 
+*Use formulas from lecture 8 for question 2; 
 
 *Create X matrix; 
 PROC IML; 
@@ -88,7 +88,7 @@ PROC REG data=s3a3.csdata plots=none;
      model GPA = HSM SATM/CLB alpha=0.01;
 run;
 
-*Compare our results to the parameter estimates table for beta1! 
+*Compare our results from before to the parameter estimates table for beta1! 
 
 PREDICTIONS;
 *Predict GPA if HSM=9 and SATM=600; 
