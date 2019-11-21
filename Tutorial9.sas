@@ -117,19 +117,3 @@ run;
 *Avg. Salary of Bachelor = 14942 + 3344*(1) + 3351*(0) = 18286.3684
 *This corresponds to level of E=2 in the ANOVA procedure. 
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
