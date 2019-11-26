@@ -103,7 +103,7 @@ run;
 *Use F-test in Type III SS Table. Assume alpha = 0.01, from table pvalue=0.7481. 
 Since p >>> alpha, we conclude no interaction between brand and device. 
 
-If interactiona added, brand is not statistically significant. 
+If interaction added, brand is not statistically significant. 
 
 
 
