@@ -18,7 +18,7 @@ MODEL part of PROC REG. Instead, we will create a macro variable. Essentially,
 it's like creating a list() in R; 
 
 proc sql;
-select name into :ivars separated by ' '
+select name into :ivars separated by ' ' /*select the names and put into a variable called ivars*/
 from dictionary.columns /*capturing all the information related to covariates*/
 where libname eq 'S3A3' /*this is my library*/
 and memname eq 'WINE' /*name of the data*/
