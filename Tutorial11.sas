@@ -32,7 +32,7 @@ model quality=&ivars/Selection=Backward SLStay=0.05; *alpha=0.05;
 run;
 
 *Criteria: 
-Remove the independent variables where pvalue is greather than 0.05,
+Remove the independent variables where pvalue is greater than 0.05,
 continue until all variables left in the model are significant at the 0.05;
 
 
@@ -46,7 +46,7 @@ run;
 
 *Criteria: 
 Only variables with pvalue less than 0.05 is considered. STOP when the last
-variable entering the model has an pvalue greather 0.05 (insignificant).
+variable entering the model has a pvalue greater 0.05 (insignificant).
  
 
 /*StepWise - start like forward but we can delete variables like backward;
