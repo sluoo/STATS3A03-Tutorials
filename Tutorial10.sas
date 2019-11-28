@@ -33,16 +33,14 @@ Regression:
 lifetime = 8.02 - 1.79*Brand
 
 Intepretation: 
-average lifetime for A is 1.79 hours less than B
-average lifetime for B is 8.02
-
-
+When Brand=1,average lifetime for A is 1.79 hours less than B
+When Brand=0,average lifetime for B is 8.02
 
 *Need 1 dummy variable only because 2 categories for Brand; 
 Data s3a3.batteries;
 set s3a3.batteries;
 	*Brand A is reference category;
-if Brand="B" then BrandB=1; else BrandB=0;
+if Brand="B" then BrandB=1; else BrandB=0;    
 run;
 
 PROC REG data=s3a3.batteries plots=none; 
@@ -53,8 +51,8 @@ run;
 lifetime = 6.20 + 1.79*BrandB
 
 Interpretation: 
-average lifetime for B is 1.79 hours more than A
-average lifetime for A is 6.20 
+When BrandB=1,average lifetime for B is 1.79 hours more than A
+When BrandB=0,average lifetime for A is 6.20 
 
 *So depending on reference category, interpretation is different but same conclusion. 
 
